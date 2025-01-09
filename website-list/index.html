@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Website Directory</h1>
+    </header>
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search for a website or description..." onkeyup="filterWebsites()">
+    </div>
+    <div class="container">
+        <div class="category">
+            <h2>Social media and news</h2>
+            <ul class="website-list">
+                <li><a href="https://www.bloomberg.com/asia" class="website" target="_blank"  
+                    data-description="Bloomberg delivers business
+                     and markets news, data, analysis,
+                      and video to the world, featuring stories 
+                      from Businessweek and Bloomberg News">
+                      bloomberg</a>
+                </li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Books and studies</h2>
+            <ul class="website-list">
+                <li><a href="https://www.freetechbooks.com/" class="website" target="_blank"  
+                    data-description="Open Access Online Computer Science Books
+                    , Textbooks, and Lecture Notes">
+                    FreeTechBooks</a>
+                </li>
+                <li><a href="https://www.esolcourses.com/" class="website" target="_blank"  
+                    data-description="The home of free english learning online.">
+                    ESOLCourses</a>
+                </li> 
+                <li><a href="https://mangaplus.shueisha.co.jp/updates" class="website" target="_blank"  
+                    data-description="Read latest mangas and manhwas.">
+                    Mangaplus shueisha</a>
+                </li>
+                <li><a href="https://safebooru.org/" class="website" target="_blank"  
+                    data-description="Page made only for anime and
+                     manga fans by fans themselves.">
+                     Safebooru</a>
+                </li> 
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Entertainment</h2>
+            <ul class="website-list">
+                <li><a href="https://www.stremio.com/" class="website" target="_blank"  
+                    data-description="Stremio offers a secure, modern and seamless entertainment experience.">
+                    Stremio</a>
+                </li> 
+                <li><a href="https://movieflixe.netlify.app/" class="website" target="_blank"  
+                    data-description="Can view some movies">
+                    movieflix</a>
+                </li>
+                <li><a href="https://123movies-xyz.pages.dev/" class="website" target="_blank"  
+                    data-description="Enjoy latest movies.">
+                    123movies</a>
+                </li>
+                <li><a href="https://anilab.to/" class="website" target="_blank"  
+                    data-description=" Best Anime App for Android and iOS">
+                    Anilab</a>
+                </li>  
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Courses</h2>
+            <ul class="website-list">
+                <li><a href="https://skillsbuild.org/" class="website" target="_blank"  
+                    data-description="Power your future in tech with job skills, courses, and credentials—for free.">
+                    IBM SkillsBuild</a>
+                </li> 
+                <li><a href="https://unschooler.me/" class="website" target="_blank"  
+                    data-description="Turn your expertise into AI-powered courses in minutes.">
+                    Unschooler</a>
+                </li>
+                <li><a href="https://digisaksham.azurefd.net/" class="website" target="_blank"  
+                    data-description="Microsoft Community Training and courses">
+                    Microsoft digisaksham</a>
+                </li>
+                <li><a href="https://www.mindluster.com/" class="website" target="_blank"  
+                    data-description="300,000 Online Courses and MOOCs
+                    With Free Certificates in one place">
+                    Mind Luster</a>
+                </li>
+                 <li><a href="https://www.netacad.com/" class="website" target="_blank"  
+                    data-description="Learn the skills,
+                    land your dream job.Free online courses.">
+                    netacad</a>
+                </li>
+                <li><a href="https://www.magnetbrains.com/" class="website" target="_blank"  
+                    data-description="INDIA'S NO.1
+                    100% Free Online Education Platform">
+                    Magnet brains</a>
+                </li>
+                <li><a href="https://www.selfstudys.com/" class="website" target="_blank"  
+                    data-description="Free accsess to NCERT textbooks and more.">
+                    Self studys</a>
+                </li>
+                <li><a href="https://www.futurepedia.io/" class="website" target="_blank"  
+                    data-description="Master the Latest AI Skills
+                    & Tools.">
+                    Futurepedia</a>
+                </li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Coding and Ai</h2>
+            <ul class="website-list">
+                <li><a href="https://www.blackbox.ai/" class="website" target="_blank"  
+                    data-description="BLACKBOX AI is the Best AI Model for Code.">
+                    BLACKBOX AI</a>
+                </li>
+                <li><a href="https://www.commontools.org/"class="website" target="_blank"  
+                    data-description="Free Online Tools to Make Your Work Life Easier.">
+                    Common tools</a>
+                </li>
+                <li><a href="https://llamacoder.together.ai/" class="website" target="_blank"  
+                    data-description="Turn your idea into an app.">
+                    Llama coder </a>
+                </li> 
+                <li><a href="https://humanizeai.com/" class="website" target="_blank"  
+                    data-description="Transform AI-generated text into authentic, human-like content effortlessly with Humanize AI. ">
+                    Humanize AI</a>
+                </li>
+                <li><a href="https://www.fakespot.com/" class="website" target="_blank"  
+                    data-description="Use AI to detect fake reviews and scams">
+                    fakespot</a>
+                </li>
+                <li><a href="https://andisearch.com/" class="website" target="_blank"  
+                    data-description=" Andi, your friendly search assistant.
+                     The more detailed your question, the better It can help">
+                     andisearch </a>
+                </li>
+                <li><a href="https://coddy.tech/" class="website" target="_blank"  
+                    data-description="The free, fun, and effective way to learn to code!">
+                    Coddy </a>
+                </li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Software devlopment</h2>
+            <ul class="website-list">
+                <li><a href="https://www.onshape.com/en/" class="website" target="_blank"  data-description="Onshape is a computer-aided design (CAD) software system, delivered over the Internet via a software as a service (SaaS) model">Onshape</a></li>
+                <li><a href="https://www.tinkercad.com/" class="website" target="_blank"  data-description="Tinkercad is a free web app for 3D design, electronics, and coding, trusted by over 75 million people around the world.">Tinkercad</a></li>
+                <li><a href="https://playground.arduino.cc/" class="website" target="_blank"  
+                    data-description="To test the arduino code and software.">
+                    Arduino playground </a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Religious</h2>
+            <ul class="website-list">
+                <li><a href="https://islamandai.com" class="website" target="_blank"  data-description="The Best AI for Islam! Empowering Islamic Education with Artificial Intelligence.">Islam and Ai</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Projects</h2>
+            <ul class="website-list">
+                <li><a href="https://technicalhut.in/" class="website" target="_blank"  data-description="Online Robotics Store: Arduino, Raspberry Pi 
+                    and the largest collection of Electronic Components
+                    , DC motors, Drone Parts, Sensors.">Technical hut</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Things to know.</h2>
+            <ul class="website-list">
+                <li><a href="https://ahrefs.com/blog/google-advanced-search-operators/" class="website" target="_blank"  
+                    data-description="General SEO Google Search Operators: The Complete List (44 Advanced Operators).">
+                    ahrefs</a>
+                </li>
+                <li><a href="https://www.fiverr.com/?msockid=06a9c8860350697b2137dc8602d368e9" class="website" target="_blank"  
+                    data-description="Scale your professional workforce with freelancers".">
+                    fiverr</a>
+                </li>
+                <li><a href="https://parivahan.gov.in/parivahan/" class="website" target="_blank"  
+                    data-description="Vehicle and License Related Services">
+                    parivahan.gov </a>
+                </li>
+                <li><a href="https://www.myunidays.com/IN/en-IN" class="website" target="_blank"  
+                    data-description="UNiDAYS - Fast, free, exclusive deals for students">
+                    UNiDAYS</a>
+                </li> 
+                <li><a href="https://squirt.io/" class="website" target="_blank"  
+                    data-description="Speed read the web, one word at a time">
+                    Squirt</a>
+                </li> 
+                <li><a href="https://simplycodes.com/" class="website" target="_blank"  
+                    data-description="Get promo codes that actually work">
+                    simplycodes</a>
+                </li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>one for all Source</h2>
+            <ul class="website-list">
+                <li><a href="https://ewasion.github.io/opendirectory-finder/" class="website" target="_blank"  
+                    data-description="Get direct download links for almost anything.">
+                    Ewasion GitHub io</a>
+                </li>
+                <li><a href="https://bestofai.com/" class="website" target="_blank"  
+                    data-description="The Best AI Tools & Applications Online.">
+                    Best of Ai </a>
+                </li>    
+                <li><a href="https://linktr.ee/kaabilengineer?lt_utm_source=lt_share_link#399801745" class="website"target="_blank"  
+                    data-description="Kabil engineer, student cse Aiml">
+                   Cse(aiml) Student</a>
+                </li>
+                <li><a href="https://www.playbook.com/?utm_source=c4&utm_medium=swipelabs&mcp_token=eyJwaWQiOjEwNDI1NDUsInNpZCI6NDEyOTU4NzkxLCJheCI6IjM1ZjFlMzUzMDJkZWE2NTJlN2E0NGI4MGQ2NjZkZTcwIiwidHMiOjE3MzEyMjM0NjYsImV4cCI6MTczMzY0MjY2Nn0.nFG1eOnJ68mHUROC4PoU7-SPPbCrekpBIz-JJzn21OU&fbclid=PAY2xjawGdPvtleHRuA2FlbQIxMAABpkg5NgNfAinA_KeH541ag_9FWe7JsqSSSWUj6AhGAZBiVpHTzaqo1LwURg_aem_wlYIuAxxTM4zVWCISe6vaw" class="website" target="_blank"  
+                    data-description="Agencies and teams use Playbook
+                     to share their files and projects with clients and teammates.">
+                    Play book</a>
+                </li> 
+                <li><a href="https://digitaldefynd.com/" class="website" target="_blank"  
+                    data-description="The World's Best Online Courses
+                    at One Place">
+                    Digitaldefynd</a>
+                </li>
+                <li><a href="https://www.tutorialsduniya.com/" class="website" target="_blank"  
+                    data-description="TutorialsDuniya is one of the fastest-growing 
+                    and most trusted academic FREE Study Material
+                     website for all School & College Students.">
+                    TutorialsDuniya</a>
+                </li>
+                <li><a href="https://soverin.ai/category/academics/" class="website" target="_blank"  
+                    data-description="boost your understanding and acadamic results">
+                    Best college ai tools</a>
+                </li>    
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Apps and Extensions</h2>
+            <ul class="website-list">
+                <li><a href="https://chromewebstore.google.com/detail/ultrasurf-security-privac/mjnbclmflcpookeapghfhapeffmpodij" class="website" target="_blank"  
+                    data-description="UltraSurf Security, Privacy & Unblock VPN">
+                    UltraSurf</a>
+                </li>  
+                <li><a href="https://www.fxsound.com/" class="website" target="_blank"  
+                    data-description="Free open-source software to boost sound quality, volume, and bass.">
+                    fx sound</a>
+                </li>
+                <li><a href="https://learn.microsoft.com/en-us/windows/powertoys/" class="website" target="_blank"  
+                    data-description="Microsoft PowerToys is a set of utilities for power users to tune 
+                    and streamline their Windows experience for greater productivity.">
+                    Microsoft power toys</a>
+                </li>
+                <li><a href="https://www.coupert.com/" class="website" target="_blank"  
+                    data-description="Search for the Best Coupons and Earn Cash Back with Coupert">
+                    Coupert</a>
+                </li>
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Internship and job</h2>
+            <ul class="website-list">
+                <li><a href="https://www.ncs.gov.in/" class="website" target="_blank"  
+                    data-description="National Career Service
+                    Ministry of Labour & Employment for jobseekers and employers">
+                    National Career Service</a>
+                </li>  
+                <li><a href="" class="website" target="_blank"  
+                    data-description="">
+                    </a>
+                </li>
+                <li><a href="https://www.theforage.com/" class="website" target="_blank"  
+                    data-description="Explore careers and prepare for 
+                    the job with hundreds of free job simulations designed 
+                    by the world's top employers.">
+                    forage</a>
+                </li> 
+            </ul>
+        </div>
+        <div class="category">
+            <h2>Editors</h2>
+            <ul class="website-list">
+                <li><a href="https://studio.polotno.com/" class="website" target="_blank"  
+                    data-description="Free online design editor.
+                     Create images for social media,
+                      youtube previews, facebook covers">
+                      Studio polotno </a>
+                </li>   
+            </ul>
+        </div>
+    </div>
+    <script>
+       function filterWebsites() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const links = document.querySelectorAll('.website');
+
+            links.forEach(link => {
+                const text = link.textContent.toLowerCase();
+                const description = link.getAttribute('data-description').toLowerCase();
+
+                // Split query into words and check for exact matches
+                const queryWords = query.split(/\s+/);
+                const textWords = text.split(/\s+/);
+                const descriptionWords = description.split(/\s+/);
+
+                const matchesText = queryWords.every(word => textWords.includes(word));
+                const matchesDescription = queryWords.every(word => descriptionWords.includes(word));
+
+                if (matchesText || matchesDescription) {
+                    link.parentElement.classList.remove('hidden');
+                } else {
+                    link.parentElement.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
